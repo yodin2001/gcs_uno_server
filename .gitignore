@@ -1,1 +1,4 @@
 node_modules
+pilot-ui/codebase/app.js
+pilot-ui/codebase/app.css
+package-lock.json
