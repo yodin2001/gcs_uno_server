@@ -62,6 +62,7 @@
     "socket.io-redis": "^5.2.0",
     "thinky": "^2.3.9",
     "underscore": "^1.9.1",
+    "uuid": "^3.4.0",
     "webix-jet": "^2.1.2",
     "winston": "^3.2.1"
   }
