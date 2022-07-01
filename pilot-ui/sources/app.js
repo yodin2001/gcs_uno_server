@@ -15,7 +15,7 @@ webix.ready(() => {
 	//
 	// new app constructor
 	const app = new JetApp({
-		start: "/app/control_tower"
+		start: "/app/drones_list"
 		,router: StoreRouter
 		,debug: true // FIXME
 	});

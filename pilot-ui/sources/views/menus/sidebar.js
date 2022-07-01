@@ -2,8 +2,8 @@ import {JetView, plugins} from "webix-jet";
 
 
 const menu_data = [
-	 { id: "control_tower", icon: "mdi mdi-airport", value: "Control Tower" }
-	,{ id: "drones_list", icon: "mdi mdi-drone", value: "Drones" }
+	// { id: "control_tower", icon: "mdi mdi-airport", value: "Control Tower" }
+	/*,*/{ id: "drones_list", icon: "mdi mdi-drone", value: "Drones" }
 	,{ id: "charging_stations_list", icon: "mdi mdi-ev-station", value: "Charging Stations" }
     ,{ id: "flight_plans_list", icon: "mdi mdi-map-marker-distance", value: "Flight Plans" }
 	,{ id: "flight_logs_list", icon: "mdi mdi-file-document-outline", value: "Flight Logs" }
