@@ -1019,7 +1019,8 @@ class MAVDroneClient {
                         muted: true,
                         autoplay: true,
                         splash_screen: 'static/white_noise.gif',
-                        reconnects: 10
+                        reconnects: 10,
+                        controls : false
                     });
 
                     window.SLDPH.reset();
