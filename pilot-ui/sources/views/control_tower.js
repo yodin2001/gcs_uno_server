@@ -61,7 +61,7 @@ const map_config = {
     view:"google-map"
     ,localId: "map:tower"
     ,zoom: 10
-    ,mapType: 'SATELLITE'
+    ,mapType: 'HYBRID'
     ,center:[ 55, 37 ]
 };
 

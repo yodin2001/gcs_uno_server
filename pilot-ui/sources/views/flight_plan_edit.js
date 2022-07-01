@@ -571,7 +571,7 @@ const view_config = {
                     view: "google-map",
                     localId: "mission:map",
                     zoom:13,
-                    mapType: 'SATELLITE',
+                    mapType: 'HYBRID',
                     gravity: 3,
                     center:[ 55.751244, 37.618423 ]
                 }

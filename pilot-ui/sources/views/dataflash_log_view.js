@@ -1092,7 +1092,7 @@ const map_config = {
      view:"google-map"
     ,localId: "map:drone"
     ,zoom: 10
-    ,mapType: 'SATELLITE'
+    ,mapType: 'HYBRID'
     ,center:[ 55, 37 ]
     ,gravity: 3
 };
