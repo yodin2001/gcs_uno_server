@@ -1110,6 +1110,7 @@ class MAVDroneClient {
                 ,tw_speed: view.$scope.telemetry_popup.queryView({localId: 'tw:speed'})
                 ,tw_sats: view.$scope.telemetry_popup.queryView({localId: 'tw:sats'})
                 ,tw_bat_v: view.$scope.telemetry_popup.queryView({localId: 'tw:bat_v'})
+                ,tw_bat_c: view.$scope.telemetry_popup.queryView({localId: 'tw:bat_c'})
                 ,tw_dist_home: view.$scope.telemetry_popup.queryView({localId: 'tw:dist_home'})
 
 
@@ -1246,6 +1247,7 @@ class MAVDroneClient {
             _this.view_els.tw_speed.connectDataRecord(_this.drone_data.telem_1hz, "gps_speed");
             _this.view_els.tw_sats.connectDataRecord(_this.drone_data.telem_1hz, "sats");
             _this.view_els.tw_bat_v.connectDataRecord(_this.drone_data.telem_1hz, "bat_v");
+            _this.view_els.tw_bat_c.connectDataRecord(_this.drone_data.telem_1hz, "bat_c");
             _this.view_els.tw_dist_home.connectDataRecord(_this.drone_data.telem_1hz, "dist_home");
 
 

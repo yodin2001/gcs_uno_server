@@ -622,6 +622,14 @@ const telemetry_popup = {
                         ,tooltip: 'Battery Voltage'
                         ,width: 95
                     }
+                    ,{ // bat_c
+                        view: 'telem_widget'
+                        ,localId: 'tw:bat_c'
+                        ,icon: 'battery'
+                        ,label: 'A'
+                        ,tooltip: 'Battery current'
+                        ,width: 95
+                    }
                 ]
             }
             ,{
